@@ -1,3 +1,7 @@
+html {
+    scroll-behavior: smooth;
+}
+
 .nopadding{
 	padding-left: 0;
 	padding-right: 0;
@@ -60,11 +64,11 @@
 }
 
 @media screen and (min-width: 1px) and (max-width: 576px){
-	#header h1 {
+	.titre {
 		font-size: 20px !important;
 		line-height: 20px !important;
 	}
-	#header h2 {
+	.soustitre {
 		font-size: 10px !important;
 	}
 	.video-ting{
@@ -73,11 +77,11 @@
 }
 
 @media screen and (min-width: 577px) and (max-width: 768px){
-	#header h1 {
+	.titre {
 		font-size: 40px !important;
 		line-height: 40px !important;
 	}
-	#header h2 {
+	.soustitre {
 		font-size: 15px !important;
 	}
 	.video-ting{
@@ -86,11 +90,11 @@
 
 }
 @media screen and (min-width: 769px) and (max-width: 992px) {
-	#header h1{
+	.titre{
 		font-size: 60px !important;
 		line-height: 60px !important;
 	}
-	#header h2 {
+	.soustitre {
 		font-size: 25px !important;
 	}
 	.video-ting{
@@ -100,11 +104,11 @@
 }
 
 @media screen and (min-width: 992px) and (max-width: 1200px) {
-	#header h1{
+	.titre{
 		font-size: 80px !important;
 		line-height: 80px !important;
 	}
-	#header h2 {
+	.soustitre {
 		font-size: 40px !important;
 	}
 	.video-ting{
@@ -112,7 +116,7 @@
 	}
 }
 
-.header-titre{
+.titre{
 	color: #ffffff;
 	font-weight: 700;
 	text-transform: uppercase ;
@@ -122,13 +126,12 @@
 	text-shadow: 0 0 3px #d20c0c, 0 0 8px #d20c0c;
 }
 
-.header-soustitre{
+.soustitre{
 	color: #d20c0c;
 	text-transform: uppercase;
 	font-weight: 400;
 	font-style: normal;
 	font-size: 36px;
-	line-height: 25px;
 }
 
 @media screen and (min-width: 1px) and (max-width: 576px){
@@ -213,7 +216,6 @@
 	font-weight: 400;
 	font-style: normal;
 	font-size: 36px;
-	
 }
 
 @media screen and (min-width: 1px) and (max-width: 576px){
@@ -246,5 +248,17 @@
 }
 
 #discord{
-	background-color: grey;
+	background-color: #36393F;
 }
+
+#discord h1{
+	color: #ffffff;
+	font-weight: 700;
+	text-transform: uppercase ;
+	font-style: normal;
+	font-size: 60px ;
+	line-height: 90px ;
+	text-shadow: 0 0 3px #d20c0c, 0 0 8px #d20c0c;
+}
+
+#discord .soustitre
